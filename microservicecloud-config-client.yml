@@ -1,12 +1,12 @@
-#spring:
-#  profiles:
-#    active:
-#       - dev
+spring:
+  profiles:
+    active:
+     - dev
 ---
 server:
   port: 8201
 spring:
-   profileds: dev
+   profiles: dev
    application:
      name: microservicecloud-config-client
 eureka:
@@ -18,7 +18,7 @@ eureka:
 server:
   port: 8202
 spring:
-  profileds: test
+  profiles: test
   application:
     name: microservicecloud-config-client
 eureka:
